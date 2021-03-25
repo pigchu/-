@@ -1,0 +1,152 @@
+html{
+	box-sizing: border-box;
+	background-color: white; 
+}
+body{
+	width: 1260px;
+	height: 940px;
+	background-color: #EDF2C5;
+	margin: auto;
+}
+
+.header{
+	font-family:arial black;
+	margin-left:160px;
+	margin-right:160px;
+}
+
+.title{
+	font-weight:44px;
+	font-height:36px;
+	color: #778A50;
+	margin-top: 0px;
+
+}
+
+.title,.link{
+	display: inline-block;
+}
+
+.link{
+	float: right;
+	margin-top: 26px;
+}
+
+.leftlink,.hr1,.rightlink{
+	justify-content: flex-end;
+	height: 25px;
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.LOGIN,.JOIN{
+	display: inline-block;
+	font-size: 14px;
+	color: #778A50;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+}
+
+.menu{
+	font-size: 16px;
+	color: #EDF2C5;
+	background-color: #778A50; 
+	width: 940px;
+	display: flex;
+	list-style: none;
+}
+
+.menu1{
+	display: block;
+	margin-right: 60px;
+}
+
+li{
+	float: left;
+}
+
+.banner{
+	margin-left:160px;
+	margin-right:160px;
+	margin-top: 20px;
+}
+
+.center{
+	margin-left:160px;
+	margin-right:160px;
+	margin-top: 30px;
+}
+
+.veg{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	max-width: 445px;
+	max-height: 45px;
+	font-family: Arial Black;
+	font-size: 16px;
+	color: #EDF2C5;
+	background-color: #778A50;
+}
+
+.rightcenter{
+	float: right;
+	}
+
+.rc1{
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	font-size: 16px;
+	font-family: Arial Black;
+	color: #EDF2C5;
+	background-color: #778A50;
+}
+
+.rc{
+	padding-left: 25px;
+	padding-right: 25px;
+	height: 140px;
+	width: 414px;
+	background-color: #F7FBDA;
+	color: #7D7D7D;
+}
+
+.rc2{
+	padding-top:16px;
+	font-size: 12px;
+	font-family: AriatMT Regular;
+	line-height: 1.33;
+	text-align: left;
+}
+
+.rc3{
+	font-size: 12px;
+	font-family: AriatMT Regular;
+	line-height: 1.83;
+}
+
+.leftimg{
+	width: 444px;
+	height:140px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.leftcenter,.rightcenter{
+	display: inline-table;
+	height: 200px;
+}
+
+.footer{
+	font-family: AriatMT Regular;
+	font-size: 12px;
+	color: #EDF2C5;
+	background-color: #778A50;
+	text-align: center;
+	padding-top: 24px;
+	padding-bottom: 25px;
+	margin-top: 35px;
+}
