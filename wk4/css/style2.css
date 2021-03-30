@@ -1,0 +1,134 @@
+body{
+	width: 1260px;
+	height: 940px;
+	background-color: #EDF2C5;
+}
+    /*width: 1260px;
+	height: 940px;*/
+
+.header{
+	font-family:arial black;
+	margin-left:160px;
+}
+
+.title{
+	font-weight:44px;
+	font-height:36px;
+	color: #778A50;
+	display: inline-block;
+}
+
+.link{
+	float: right;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 160px;
+}
+.leftlink,.hr1,.rightlink{
+	justify-content: flex-end;
+	height: 25px;
+	display: inline-block;
+	margin-left: 10px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.LOGIN,.JOIN{
+	display: inline-block;
+	font-size: 14px;
+	color: #778A50;
+	border: 1px solid #778A50;
+	border-radius: 3px;
+}
+
+.menu{
+	text-align: left;
+	font-size: 16px;
+	color: #EDF2C5;
+	background-color: #778A50; 
+	width: 910px;
+	height: 36px; 
+	padding-left: 30px;
+	padding-top: 8px;
+}
+
+.banner{
+	margin-left:160px;
+}
+
+.leftcenter,.rightcenter{
+	display: inline-table;
+	height: 200px;
+}
+.leftcenter{
+	margin-left:160px;
+}
+.rightcenter{
+	margin-left: 40px;
+	float: right;
+}
+.veg{
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 30px;
+	max-width: 445px;
+	max-height: 45px;
+	font-family: Arial Black;
+	font-size: 16px;
+	color: #EDF2C5;
+	background-color: #778A50;
+}
+.leftimg{
+	width: 444px;
+	height:140px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	text-align: center;
+}
+.img1,.img2{
+	margin-right: 12px;
+}
+.rc1{
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-bottom: 15px;
+	max-width: 445px;
+	max-height: 45px;
+	font-size: 16px;
+	font-family: Arial Black;
+	color: #EDF2C5;
+	background-color: #778A50;
+}
+.rc{
+	padding-top:16px;
+	padding-left: 15px;
+	width: 445px;
+	height: 140px;
+	background-color: #F7FBDA;
+	color: #7D7D7D;
+}
+
+.rc2{
+	font-size: 12px;
+	font-family: AriatMT Regular;
+	line-height: 1.33;
+	text-align: left;
+}
+
+.rc3{
+	font-size: 12px;
+	font-family: AriatMT Regular;
+	line-height: 1.83;
+}
+
+.footer{
+	font-family: AriatMT Regular;
+	font-size: 12px;
+	color: #EDF2C5;
+	background-color: #778A50;
+	width: 1260px;
+	height: 80px;
+	text-align: center;
+	vertical-align: middle;
+}

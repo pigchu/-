@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-tw">
+<head>
+	<meta charset="utf-8">
+	<title>wk5</title>
+	<script type="text/JavaScript" src="js/jquery.js"></script>
+	<!-- <script>
+		$(document).ready(function(){
+			$("#btn1").click(function(){
+				alert("Text: " + $("#test").text());
+			});
+			$("#btn2").click(function(){
+				alert("HTML: " + $("#test").html());
+			});
+		});
+</script> -->
+<script>
+	$(document).ready(function(){
+		$("#btn1 ").click(function(){
+			alert("Value: " + $("#test2").val());
+		});
+		$("#btn2 ").click(function(){
+			$("#test2").val("DTD");
+		});
+	});
+</script>
+</head>
+<body>
+	<!-- <p id="test">This is some <b>bold</b> text in a paragraph.</p>
+	<button id="btn1">Show Text</button>
+	<button id="btn2">Show HTML</button> -->
+	<p>Name: <input type="text" id="test2" value="Mickey Mouse"></p>
+	<button id="btn1">Show Value</button>
+	<button id="btn2">Input Value</button>
+</body>
+</html>
+
+<!-- <head>
+	<meta charset="utf-8">
+	<title>wk5</title>
+	<script type="text/JavaScript" src="js/jquery.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+			$('#dd').css('color','pink')
+			$('#dd').css('fontSize', '40px');
+
+		$('#dd').click(function(){
+			$('#dd').css('color', 'Brown').css('fontSize', '60px');
+		});
+		$('#da')
+		});
+	</script>
+</head>
+
+<body>
+	<div id="dd">Hi jQuery</div> 
+
+</body>
+</html> -->
